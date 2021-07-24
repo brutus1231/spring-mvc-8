@@ -32,7 +32,7 @@ public class SpringMvc8Application implements ApplicationRunner {
 
     private void createCustomer(String firstName, String lastName, Integer age) {
         CustomerEntity customerEntity = CustomerEntity.builder()
-                .fistName(firstName)
+                .firstName(firstName)
                 .lastName(lastName)
                 .age(age).build();
         customerRepository.save(customerEntity);
