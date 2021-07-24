@@ -18,7 +18,7 @@ public class CustomerEntity {
     private Long id;
 
     @Column
-    private String fistName;
+    private String firstName;
 
     @Column
     private String lastName;
